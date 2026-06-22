@@ -1,0 +1,7 @@
+<!-- Add these keys to ios/Runner/Info.plist inside the main <dict> ... </dict>. -->
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Diese App verbindet sich per Bluetooth mit der SolderFan-Lüftersteuerung.</string>
+
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>Diese App verbindet sich per Bluetooth mit der SolderFan-Lüftersteuerung.</string>

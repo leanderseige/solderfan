@@ -1,0 +1,39 @@
+# OS / editor noise
+.DS_Store
+*.swp
+*.log
+**/.idea/
+
+# PlatformIO / ESP32
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+**/.clang_complete
+**/.gcc-flags.json
+**/compile_commands.json
+
+# Flutter / Dart
+/app/.dart_tool/
+/app/.flutter-plugins
+/app/.flutter-plugins-dependencies
+/app/.packages
+/app/.pub-cache/
+/app/.pub/
+/app/build/
+/app/coverage/
+/app/doc/api/
+/app/**/*.symbols
+/app/**/*.map.json
+
+# Flutter Android generated files
+/app/android/local.properties
+/app/android/app/debug/
+/app/android/app/profile/
+/app/android/app/release/
+
+# Flutter iOS/macOS generated files
+/app/**/Flutter/ephemeral/
+/app/**/Flutter/.last_build_id
+/app/**/Pods/
+/app/**/dgph
+/app/**/xcuserdata/
