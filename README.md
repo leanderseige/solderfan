@@ -168,7 +168,7 @@ in this project.
 
 ## STL Models
 
-The `stl/` folder contains two model variants for using 120 mm fans with DN100
+The `stl/` folder contains two 3d-models for using 120 mm fans with DN100
 hoses:
 
 ```text
@@ -176,9 +176,8 @@ stl/120Fan2DN100.stl
 stl/120Fan2DN100-B.stl
 ```
 
-The models are intended as adapter or enclosure parts for combining a 120 mm fan
-with DN100 ducting. Which variant fits better depends on the mechanical layout,
-mounting direction, and available space.
+The models are intended as adapter or spacer parts for combining a 120 mm fan
+with DN100 ducting. 
 
 Practical printing notes:
 
@@ -187,8 +186,6 @@ Practical printing notes:
   parts.
 - For ABS, ASA, or PETG, use enough wall thickness and consider the temperature
   of the operating environment.
-- With longer hoses and higher airflow resistance, testing both model variants
-  is worthwhile.
 
 ## Development Notes
 
