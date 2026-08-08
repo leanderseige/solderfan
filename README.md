@@ -41,6 +41,10 @@ ground must be connected to ESP32 GND. The firmware enables the ESP32 internal
 pull-ups for the tachometer inputs; if high-RPM readings are still unstable, use
 stronger external pull-ups such as 4.7 kOhm to 10 kOhm to 3V3.
 
+### Schematic
+
+<img src="docs/schematic.jpg" />
+
 ## Firmware
 
 The firmware lives in `esp32/` and is built with PlatformIO.
