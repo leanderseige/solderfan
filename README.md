@@ -216,9 +216,9 @@ Practical printing notes:
 ## External Links
 
 - Particle Filter: https://link.amazon/B0b2hkyDI
-- Activated Charcoal Filter: https://link.amazon/B08j2p6j4
+- Activated Carbon Filter: https://link.amazon/B08j2p6j4
 - 120mm Fans (a pair, two): https://link.amazon/B0bdGr0G0
-- ESP32 development board: https://link.amazon/B0gnhxHe7
+- ESP32 Development Board: https://link.amazon/B0gnhxHe7
 - Threaded Rods (M4, 100mm): https://www.amazon.de/dp/B0F1T4DMW3/?tag=seigedigita03-21
 - Threaded Rods (M4, 200mm): https://link.amazon/B0fxoyF9D
 
