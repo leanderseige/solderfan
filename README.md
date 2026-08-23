@@ -10,9 +10,7 @@ SolderFan is a modular fume extractor project. It features
 - tachometer support
 
 <img src="docs/photo-complete-2-letterbox.jpg" width="100%" />
-
-<img src="docs/app1-white.jpg" width="50%" align="right" />
-
+<img src="docs/app1-white.jpg" width="400" align="right" />  
 
 The two-channel ESP32 controller drives two fans with 25 kHz PWM, reads their
 tachometer signals, supports an automatic mode through two potentiometers, and
@@ -21,7 +19,7 @@ can be controlled over BLE from a Flutter app.
 This repository includes STL models for mechanically connecting 120 mm
 fans to DN100 hoses.
 
-## Project Layout
+### Project Layout
 
 ```text
 .
@@ -31,7 +29,7 @@ fans to DN100 hoses.
 `-- stl/       3D models for filter holders, spacers and DN100 hose adapters
 ```
 
-## Hardware
+### Hardware
 
 The firmware is designed for an ESP32 DevKit and two 4-pin PC fans. The fan PWM
 outputs are driven through BC547 open-collector stages. Because of that, the PWM
@@ -58,7 +56,7 @@ stronger external pull-ups such as 4.7 kOhm to 10 kOhm to 3V3.
 
 <img src="docs/schematic.jpg" />
 
-## Firmware
+### Firmware
 
 The firmware lives in `esp32/` and is built with PlatformIO.
 
@@ -100,7 +98,7 @@ pio device monitor -b 115200
 - Startup behavior: both fans briefly run at 100 %, then fall back to 40 %
 - Status output: once per second over Serial and BLE Notify
 
-## BLE Protocol
+### BLE Protocol
 
 The ESP32 advertises as:
 
