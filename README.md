@@ -185,6 +185,8 @@ in this project.
 
 ## STL Models
 
+<img src="docs/photo-exp-3.jpg" />
+
 The `stl/` folder contains 3d-models for filter holders, DN100 adapters and spacers.
 
 The models are intended as adapter or spacer parts for combining a 120 mm fan
@@ -197,6 +199,13 @@ Practical printing notes:
   parts.
 - For ABS, ASA, or PETG, use enough wall thickness and consider the temperature
   of the operating environment.
+
+## Filters
+
+The project currently offers two types of filter holders: one for thin particle filter fabric (red) and one for activated carbon filters (green).
+
+<img src="docs/photo-filtercombo.jpg" width="400" />
+  
 
 ## Development Notes
 
