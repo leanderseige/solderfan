@@ -185,13 +185,7 @@ in this project.
 
 ## STL Models
 
-The `stl/` folder contains two 3d-models for using 120 mm fans with DN100
-hoses:
-
-```text
-stl/120Fan2DN100.stl
-stl/120Fan2DN100-B.stl
-```
+The `stl/` folder contains 3d-models for filter holders, DN100 adapters and spacers.
 
 The models are intended as adapter or spacer parts for combining a 120 mm fan
 with DN100 ducting. 
