@@ -10,6 +10,9 @@ SolderFan is a modular fume extractor project. It features
 - tachometer support
 
 <img src="docs/photo-complete-2-letterbox.jpg" width="100%" />
+
+**Disclaimer: This fume extraction system was not professionally designed, engineered, or evaluated. It is an amateur attempt to come up with a practical solution.**
+
 <img src="docs/app1-white.jpg" width="400" align="right" />  
 
 The two-channel ESP32 controller drives two fans with 25 kHz PWM, reads their
