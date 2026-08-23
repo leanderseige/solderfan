@@ -187,6 +187,8 @@ in this project.
 
 <img src="docs/photo-exp-3.jpg" />
 
+(Exploded View)
+
 The `stl/` folder contains 3d-models for filter holders, DN100 adapters and spacers.
 
 The models are intended as adapter or spacer parts for combining a 120 mm fan
