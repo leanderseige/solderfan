@@ -1,11 +1,24 @@
-# SolderFan ESP32
+# SolderFan
 
-SolderFan is a two-channel ESP32 controller for a solder fume extractor using
-two 4-pin PC fans. The firmware drives both fans with 25 kHz PWM, reads their
+SolderFan is a modular fume extractor project. It features
+
+- multiple serial 120mm fans (PC case fan standard)
+- 100mmm hose adapters
+- filter modules for activated carbon filters and for particle filters
+- microcontroller based speed adjustment (pwm)
+- remote control via bluetooth (from your smartphone or computer)
+- tachometer support
+
+<img src="docs/photo-complete-2-letterbox.jpg" width="100%" />
+
+<img src="docs/app1-white.jpg" width="50%" align="right" />
+
+
+The two-channel ESP32 controller drives two fans with 25 kHz PWM, reads their
 tachometer signals, supports an automatic mode through two potentiometers, and
 can be controlled over BLE from a Flutter app.
 
-The repository also includes STL models for mechanically connecting 120 mm
+This repository includes STL models for mechanically connecting 120 mm
 fans to DN100 hoses.
 
 ## Project Layout
@@ -13,9 +26,9 @@ fans to DN100 hoses.
 ```text
 .
 |-- app/       Flutter app for BLE control
-|-- docs/      Pinout and fan reference images
+|-- docs/      Schematic and photos
 |-- esp32/     PlatformIO project for the ESP32 firmware
-`-- stl/       3D models for 120 mm fans and DN100 hoses
+`-- stl/       3D models for filter holders, spacers and DN100 hose adapters
 ```
 
 ## Hardware
@@ -134,6 +147,8 @@ device, connect to the service, and write commands as text to the write
 characteristic.
 
 ## Flutter App
+
+<img src="docs/app1-white.jpg" width="400" align="right" />
 
 The app lives in `app/` and uses `flutter_blue_plus` and `permission_handler`.
 
