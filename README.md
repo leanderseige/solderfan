@@ -212,3 +212,14 @@ Practical printing notes:
   no separate README in the app folder.
 - Firmware and app share the BLE protocol. If UUIDs or commands change,
   `esp32/src/main.cpp` and `app/lib/main.dart` must be updated together.
+
+## External Links
+
+- Particle Filter: https://link.amazon/B0b2hkyDI
+- Activated Charcoal Filter: https://link.amazon/B08j2p6j4
+- 120mm Fans (a pair, two): https://link.amazon/B0bdGr0G0
+- ESP32 development board: https://link.amazon/B0gnhxHe7
+- Threaded Rods (M4, 100mm): https://www.amazon.de/dp/B0F1T4DMW3/?tag=seigedigita03-21
+- Threaded Rods (M4, 200mm): https://link.amazon/B0fxoyF9D
+
+
