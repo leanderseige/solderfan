@@ -151,6 +151,8 @@ characteristic.
 
 <img src="docs/app1-white.jpg" width="400" align="right" />
 
+So far I used the app on my laptop only. However it should be possible to run it on phones as well.
+
 The app lives in `app/` and uses `flutter_blue_plus` and `permission_handler`.
 
 ```bash
