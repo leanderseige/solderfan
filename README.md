@@ -226,5 +226,7 @@ The project currently offers two types of filter holders: one for thin particle 
 - ESP32 Development Board: https://link.amazon/B0gnhxHe7
 - Threaded Rods (M4, 100mm): https://www.amazon.de/dp/B0F1T4DMW3/?tag=seigedigita03-21
 - Threaded Rods (M4, 200mm): https://link.amazon/B0fxoyF9D
+- 100mm Hose: https://www.ebay.de/itm/384384792852
+
 
 
