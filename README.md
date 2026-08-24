@@ -233,5 +233,12 @@ The project currently offers two types of filter holders: one for thin particle 
 - Threaded Rods (M4, 200mm): https://link.amazon/B0fxoyF9D
 - 100mm Hose: https://www.ebay.de/itm/384384792852
 
+## Next Ideas
+
+- Presets (Stop / Min / Max / User) incl. Quick Buttons
+- Support for local displays / touchscreens
+- Support for >2 fans
+- Proximity sensor (automatically speed up/down)
+- IR sensor (automatically speed up/down)
 
 
